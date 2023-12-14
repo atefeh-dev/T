@@ -1,6 +1,6 @@
 // src/components/TodoItem.js
 import { useDispatch } from "react-redux";
-import { toggleTodoAsync, deleteTodoAsync } from "../redux/todos";
+import { deleteTodoAsync } from "../redux/action";
 
 const TodoItem = ({ todo }) => {
   const dispatch = useDispatch();

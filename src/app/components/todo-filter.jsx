@@ -1,6 +1,6 @@
 // src/components/Filter.js
 import { useDispatch } from "react-redux";
-import { filterTodos } from "../redux/todos";
+import { filterTodos } from "../redux/action";
 
 const Filter = () => {
   const dispatch = useDispatch();

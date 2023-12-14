@@ -1,7 +1,8 @@
-// src/components/TodoForm.js
+"use client";
+
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addTodoAsync } from "../redux/todos";
+import { addTodoAsync } from "../redux/action";
 
 const TodoForm = () => {
   const [text, setText] = useState("");

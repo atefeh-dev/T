@@ -1,7 +1,7 @@
 // pages/index.js
-import TodoList from "../components/TodoList";
-import TodoForm from "../components/TodoForm";
-import Filter from "../components/Filter";
+import TodoList from "./components/todo-list";
+import TodoForm from "./components/todo-form";
+import Filter from "./components/todo-filter";
 
 const Home = () => {
   return (
